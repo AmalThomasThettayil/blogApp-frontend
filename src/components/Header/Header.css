@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+.videosection {
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.videodiv {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.video {
+  height: 115%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: none;
+  position: fixed;
+  z-index: -1;
+}
