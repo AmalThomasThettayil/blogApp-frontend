@@ -1,3 +1,3 @@
-const baseUrl = "http://localhost:5000"
+const baseUrl = " https://mushy-rose-boa.cyclic.app"
 
 export default baseUrl;
