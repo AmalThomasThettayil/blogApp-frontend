@@ -109,7 +109,7 @@ export const fetchPostsAction = createAsyncThunk(
     async (category, { rejectWithValue, getState, dispatch }) => {
         try {
             const { data } = await axios.get(
-                `${baseUrl}/api/posts?category=${category}`,
+                `https://mushy-rose-boa.cyclic.app/api/posts?category=${category}`,
             );
             return data;
         } catch (error) {
